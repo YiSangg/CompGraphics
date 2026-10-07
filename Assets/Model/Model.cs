@@ -130,7 +130,15 @@ public class Model
         faces.Add(new Vector3Int(23,22,8));
         faces.Add(new Vector3Int(23,8,9));
 
+        for (int i = 0; i < vertices.Count; i++)
+        {
+            Debug.Log($"Base Vertex {i}: {vertices[i].ToString("F3")}");
+        }
+
+
     }
+
+    
 
     
     public GameObject CreateUnityGameObject()
